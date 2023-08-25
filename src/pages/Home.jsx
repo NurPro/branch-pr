@@ -13,6 +13,7 @@ export const Home = () => {
   function navigatePage() {
     const regex = /[0-9]{0-6}/;
     if (value.length > 0) {
+      
       navigate("/secondPage");
     }
   }
